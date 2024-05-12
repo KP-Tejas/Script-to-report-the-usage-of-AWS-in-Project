@@ -1,1 +1,29 @@
+How to install AWS CLI on Ubuntu Machine:
+#sudo apt-get update
+#sudo apt-get install python3-pip
+#sudo pip install awscli
+
+#!/bin/bash
+
+#author-Tejas KP
+#Date-12/05/2024
+#
+#
+#Version V1
+#This script will report the AWS Resource Usage
+
+
+#AWS S3 buckets
+aws s3 ls
+
+# list EC2 instances
+#
+aws ec2 describe-instances
+
+#list lambda
+aws lambda list-functions
+
+#list iam users
+aws iam list-users
+
 
